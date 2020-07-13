@@ -10,6 +10,7 @@ const partnerRouter = require('./routes/partnerRouter');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const mongoose = require('mongoose');
+const authenticate = require('./authenticate');
 
 const url = config.mongoUrl;
 
